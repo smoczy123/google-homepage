@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google startpage copy</title>
+    <style>
+        .searchbar {
+            position: absolute;
+            top: 52.5%;
+            left: 52%;
+            width: 271px;
+            height: 30%;
+            margin: -15% 0 0 -10%;
+        } 
+        #logo {
+            left: 10%;
+            position: relative;
+            padding-bottom: 20px;
+        }
+        .search {
+            position: absolute;
+            width: 500px;
+            height: 40px;
+            border-color: #32343c2e;
+            border-width: 1px;
+            left: -50%;
+            border-radius: 20px;
+            font-size: 16px;
+            padding: 0 40px 0;
+        }
+        .search:hover {
+            box-shadow: 0 0 4px -2px black;
+        }
+        .container {
+            display: flex;
+            position: relative;
+            z-index: 100;
+            width: 300px;
+            height: 40px;
+            top: 30%;
+            justify-content: space-between;
+        }
+        .button:hover {
+            box-shadow: 0 0 3px -3px #443f3f91;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class ="searchbar">
+        <img id="logo"src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        <input class="search" type="text">
+        <div class="container">
+            <button class="button">Google Search</button>
+            <button class="button">I'm Feeling lucky</button>
+        </div>
+    </div>
+
+
+</body>
+</html>
