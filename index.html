@@ -42,11 +42,54 @@
         .button:hover {
             box-shadow: 0 0 3px -3px #443f3f91;
         }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 10px;
+            text-decoration: none;
+            font-size: 13px;
+            font-family: Arial;
+        }
+        .signbutton {
+            background-color: #459fff;
+            position: relative;
+            color: white;
+            height: 30px;
+            box-shadow: white;
+            border: none;
+            width: 110%;
+        }
+        .right {
+            float: right;
+            position: relative;
+            left: -1%;
+        }
     </style>
 </head>
 
 <body>
 
+    <ul>
+        <li><a href="">About</a></li>
+        <li><a href="">Store</a></li>
+        <li class="right" style="margin: 7px 5px;"><button class="signbutton">Sign In</button></li>
+        <li class="right"><a href="">A</a></li>
+        <li class="right"><a href="">Images</a></li>
+        <li class="right"><a href="">Gmail</a></li>
+    </ul>
+    
+    
+    
     <div class ="searchbar">
         <img id="logo"src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
         <input class="search" type="text">
